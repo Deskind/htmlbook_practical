@@ -1,0 +1,87 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                float: left;
+                width: 150px;
+                margin-right: 5px;
+                
+            }
+            .date{
+                display: table-cell;
+                vertical-align: middle;
+                width: 150px;
+                height: 40px;
+                background: #22B8E6;
+            }
+            .date p{
+                width: 100%;
+                text-align: center;
+                margin: 0px auto;
+                color: white;
+                
+            }
+            .wether_image{
+                width: 150px;
+                height: 100px;
+            }
+            .temperature{
+                display: table-cell;
+                vertical-align: middle;
+                width: 150px;
+                height: 40px;
+            }
+            .temperature p{
+                width: 100%;
+                text-align: center;
+                margin: 0px auto;
+                font-size: 28px;
+            }
+            .container:hover{
+                box-shadow: 0px 0px 5px 0px black;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Sunny wether-->
+        <div class="container">
+            <div class="date">
+                <p>31.08</p>
+            </div>
+            <div class="wether_image">
+                <img class="wether_image" src="http://htmlbook.ru/files/weather-sun.jpg">
+            </div>
+            <div class="temperature">
+                <p>+20<sup>0</sup></p>    
+            </div>
+        </div>
+        <!--snow weather-->
+        <div class="container">
+            <div class="date">
+                <p>01.09</p>
+            </div>
+            <div class="wether_image">
+                <img class="wether_image" src="http://htmlbook.ru/files/weather-snow.jpg">
+            </div>
+            <div class="temperature">
+                <p>-3<sup>0</sup></p>    
+            </div>
+        </div>
+        <!--blizzard wether-->
+        <div class="container">
+            <div class="date">
+                <p>02.09</p>
+            </div>
+            <div class="wether_image">
+                <img class="wether_image" src="http://htmlbook.ru/files/weather-blizzard.jpg">
+            </div>
+            <div class="temperature">
+                <p>-10<sup>0</sup></p>    
+            </div>
+        </div>
+    </body>
+</html>

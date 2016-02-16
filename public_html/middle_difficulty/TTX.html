@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TTX</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div.grey{
+                position: relative;
+                width: 400px;
+                height: 40px;
+                background-color: #969394;
+                margin-bottom: 15px;
+            }
+            div.left_angle{
+                border-top: 30px solid white;
+                border-right: 20px solid transparent;
+            }
+            div.right_angle{
+                right: 0px;
+                bottom: 0px;
+                border-bottom: 30px solid white;
+                border-left: 20px solid transparent;
+            }
+            div.angle{
+                position: absolute;
+                width: 0px;
+                height: 0px;
+            }
+            div.indicators{
+                width: 200px;
+                height: 40px;
+                background: aquamarine;
+                float: right;
+            }
+            .indicator{
+                width: 25px;
+                height: 25px;
+                background: appworkspace;
+                float: right;
+                margin-right: 5px;
+                margin-top: 7.5px;
+                transform: skewX(160deg); 
+            }
+            div.indicators:last-child{
+                margin-right: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--first bar-->
+        <div class="grey">
+            <div class="angle left_angle"></div>
+            <div class="angle right_angle"></div>
+            <div class="indicators">
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+            </div>
+        </div>
+        <!--second bar-->
+        <div class="grey">
+            <div class="angle left_angle"></div>
+            <div class="angle right_angle"></div>
+            <div class="indicators">
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+            </div>
+        </div>
+        <!--third bar-->
+        <div class="grey">
+            <div class="angle left_angle"></div>
+            <div class="angle right_angle"></div>
+            <div class="indicators">
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+                <div class="indicator"></div>
+            </div>
+        </div>
+    </body>
+</html>
